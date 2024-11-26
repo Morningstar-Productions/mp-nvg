@@ -1,5 +1,11 @@
 return {
     Notify = function(title, message, type, duration)
-        exports.rhrp_lib:Notify(title, message, type, duration or 5000, 'fas fa-circle-info')
+        lib.notify({
+            title = title,
+            description = message,
+            type = type,
+            duration = duration or 5000,
+            icon = 'fas fa-circle-info'
+        })
     end,
 }

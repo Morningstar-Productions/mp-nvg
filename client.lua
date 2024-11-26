@@ -11,11 +11,22 @@ local function setVisionSetting(type, boolean)
 	end
 
 	if boolean then
-		exports.rhrp_lib:PlayAudio('entity', 'nightvision')
+		--[[ Implement Native Audio for Goggles
+
+		exports.mana_audio:PlaySoundFromEntity({
+            audioBank = 'dlc_tempname/temp_name_sounds',
+            audioName = { 'audioName' },
+            audioRef = 'GetSoundsetName',
+            entity = PlayerPedId()
+        })
+
+		]]
+
+		config.Notify('Goggles', 'You have put on goggles!', 'success')
 	end
 end
 
-exports('nightvision', function(data, slot)
+exports('nightvision', function()
 	if playerState.thermal then
 		return config.Notify('Thermal Goggles', "You're already wearing thermals!", "error")
 	end
@@ -57,7 +68,7 @@ exports('nightvision', function(data, slot)
 	end
 end)
 
-exports('thermalvision', function(data, slot)
+exports('thermalvision', function()
 	if playerState.nightvision then
 		return config.Notify('Night Vision Goggles', "You're already wearing NVGs!", "error")
 	end
