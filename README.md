@@ -5,6 +5,7 @@ Night Vision Goggle Script for FiveM
 - [Renewed-Lib](https://github.com/Renewed-Scripts/Renewed-Lib/releases)
 - [ox_lib](https://github.com/overextended/ox_lib/releases)
 - [ox_inventory](https://github.com/overextended/ox_inventory/releases)
+- [mana_audio](https://github.com/manason/mana_audio)
 
 ## Installation
 - Drag Resource into Folder
