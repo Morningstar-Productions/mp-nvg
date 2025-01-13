@@ -11,16 +11,12 @@ local function setVisionSetting(type, boolean)
 	end
 
 	if boolean then
-		--[[ Implement Native Audio for Goggles
-
 		exports.mana_audio:PlaySoundFromEntity({
-            audioBank = 'dlc_tempname/temp_name_sounds',
-            audioName = { 'audioName' },
-            audioRef = 'GetSoundsetName',
+            audioBank = 'dlc_morningstar/mp_script_audio',
+            audioName = { 'nightvision' },
+            audioRef = 'mp_sounds',
             entity = PlayerPedId()
         })
-
-		]]
 
 		config.Notify('Goggles', 'You have put on goggles!', 'success')
 	end

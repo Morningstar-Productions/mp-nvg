@@ -6,6 +6,7 @@ Night Vision Goggle Script for FiveM
 - [ox_lib](https://github.com/overextended/ox_lib/releases)
 - [ox_inventory](https://github.com/overextended/ox_inventory/releases)
 - [mana_audio](https://github.com/manason/mana_audio)
+- [mp-nativeaudio](https://github.com/Morningstar-Productions/mp-nativeaudio)
 
 ## Installation
 - Drag Resource into Folder

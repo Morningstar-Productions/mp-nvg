@@ -24,3 +24,11 @@ server_scripts {
 files {
     'config.lua'
 }
+
+dependencies {
+    'mp-nativeaudio',
+    'Renewed-Lib',
+    'ox_lib',
+    'mana_audio',
+    'ox_inventory'
+}
