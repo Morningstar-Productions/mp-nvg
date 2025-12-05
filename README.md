@@ -1,4 +1,4 @@
-# mp-nvg
+# viper_nvg
 Night Vision Goggle Script for FiveM
 
 ## Dependencies
@@ -22,7 +22,7 @@ Night Vision Goggle Script for FiveM
         description = 'Mil-Spec. High price, low quality.',
         allowArmed = true,
         client = {
-            export = 'mp-nvg.nightvision'
+            export = 'viper_nvg.nightvision'
         },
         -- dropModel = `bkr_prop_duffel_bag_01a` -- If using Renewed-Itemsdrops
     },
@@ -37,7 +37,7 @@ Night Vision Goggle Script for FiveM
         description = 'Nerd-Spec. High price, high quality.',
         allowArmed = true,
         client = {
-            export = 'mp-nvg.thermalvision'
+            export = 'viper_nvg.thermalvision'
         },
         dropModel = `bkr_prop_duffel_bag_01a`
     },
